@@ -330,12 +330,12 @@ importers:
     devDependencies:
       '@types/node': 13.1.6
       del: 5.1.0
-      rollup: 1.29.0
+      rollup: 1.32.0
       sinon: 8.0.4
     specifiers:
       '@types/node': 13.1.6
       del: ^5.1.0
-      rollup: ^1.27.14
+      rollup: ^1.32.0
       sinon: 8.0.4
   packages/strip:
     dependencies:
@@ -1810,6 +1810,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+  /acorn/7.1.1:
+    dev: true
+    engines:
+      node: '>=0.4.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
   /aggregate-error/3.0.1:
     dependencies:
       clean-stack: 2.2.0
@@ -6512,6 +6519,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-V63Iz0dSdI5qPPN5HmCN6OBRzBFhMqNWcvwgq863JtSCTU6Vdvqq6S2fYle/dSCyoPrBkIP3EIr1RVs3HTRqqg==
+  /rollup/1.32.0:
+    dependencies:
+      '@types/estree': 0.0.42
+      '@types/node': 13.1.6
+      acorn: 7.1.1
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-ab2tF5pdDqm2zuI8j02ceyrJSScl9V2C24FgWQ1v1kTFTu1UrG5H0hpP++mDZlEFyZX4k0chtGEHU2i+pAzBgA==
   /run-async/2.3.0:
     dependencies:
       is-promise: 2.1.0
